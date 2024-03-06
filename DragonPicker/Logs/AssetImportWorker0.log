@@ -10,9 +10,9 @@ Available memory:        15359 MB
 Using pre-set license
 Pro License: YES
 
-(Unity:21098): Gtk-CRITICAL **: 10:46:15.934: gtk_window_set_default_icon: assertion 'GDK_IS_PIXBUF (icon)' failed
+(Unity:38003): Gtk-CRITICAL **: 17:42:24.459: gtk_window_set_default_icon: assertion 'GDK_IS_PIXBUF (icon)' failed
 
-(Unity:21098): GLib-GObject-CRITICAL **: 10:46:15.934: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+(Unity:38003): GLib-GObject-CRITICAL **: 17:42:24.459: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
 Desktop is 1920 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
@@ -28,7 +28,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-45717
+35243
 -job-worker-count
 5
 -background-job-worker-count
@@ -37,9 +37,9 @@ Logs/AssetImportWorker0.log
 1
 Successfully changed project path to: /home/mim/Documents/pj_unity/educational_projects/DragonPicker
 
-(Unity:21098): Gtk-CRITICAL **: 10:46:16.037: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:38003): Gtk-CRITICAL **: 17:42:24.563: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:21098): Gtk-CRITICAL **: 10:46:16.045: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:38003): Gtk-CRITICAL **: 17:42:24.571: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
 /home/mim/Documents/pj_unity/educational_projects/DragonPicker
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -75,13 +75,12 @@ Successfully changed project path to: /home/mim/Documents/pj_unity/educational_p
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140271609652288] Host "[IP] 192.168.3.2 [Port] 0 [Flags] 2 [Guid] 741990142 [EditorId] 741990142 [Version] 1048832 [Id] LinuxEditor(16,192.168.3.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [140271609652288] Host "[IP] 192.168.3.2 [Port] 0 [Flags] 2 [Guid] 741990142 [EditorId] 741990142 [Version] 1048832 [Id] LinuxEditor(16,192.168.3.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [139981623845952] Host "[IP] 192.168.3.2 [Port] 0 [Flags] 2 [Guid] 2145023353 [EditorId] 2145023353 [Version] 1048832 [Id] LinuxEditor(16,192.168.3.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [139981623845952] Host "[IP] 192.168.3.2 [Port] 0 [Flags] 2 [Guid] 2145023353 [EditorId] 2145023353 [Version] 1048832 [Id] LinuxEditor(16,192.168.3.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
 Library Redirect Path: Library/
-Unable to load player prefs
-Refreshing native plugins compatible for Editor in 0,42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2023.2.11f1 (6a1e21c61430)
 [Subsystems] Discovering subsystems at path /home/mim/Unity/Hub/Editor/2023.2.11f1/Editor/Data/Resources/UnitySubsystems
@@ -100,12 +99,12 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3t
 c GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_
 atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1181118624
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1912489632
 Initialize mono
 Mono path[0] = '/home/mim/Unity/Hub/Editor/2023.2.11f1/Editor/Data/Managed'
 Mono path[1] = '/home/mim/Unity/Hub/Editor/2023.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/mim/Unity/Hub/Editor/2023.2.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56098
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56003
 Begin MonoManager ReloadAssembly
 icall.c:1842:
 icall.c:1842:
@@ -119,41 +118,41 @@ icall.c:1842:
 icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: /home/mim/Unity/Hub/Editor/2023.2.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,002408 seconds.
-- Loaded All Assemblies, in  0,374 seconds
+Registered in 0,002518 seconds.
+- Loaded All Assemblies, in  0,409 seconds
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
 icall.c:1842:
 icall.c:1842:
-- Finished resetting the current domain, in  0,486 seconds
-Domain Reload Profiling: 860ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0,493 seconds
+Domain Reload Profiling: 902ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (90ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (95ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (140ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (152ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (486ms)
+	FinalizeReload (493ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (414ms)
+		SetupLoadedEditorAssemblies (418ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (12ms)
-			ProcessInitializeOnLoadAttributes (288ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -176,222 +175,64 @@ icall.c:1842:
 icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,831 seconds
+- Loaded All Assemblies, in  0,846 seconds
 Refreshing native plugins compatible for Editor in 0,23 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,771 seconds
-Domain Reload Profiling: 1602ms
-	BeginReloadAssembly (364ms)
+- Finished resetting the current domain, in  0,764 seconds
+Domain Reload Profiling: 1609ms
+	BeginReloadAssembly (360ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
+		CreateAndSetChildDomain (38ms)
 	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (262ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (272ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (125ms)
-			BuildScriptInfoCaches (20ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (21ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (772ms)
+	FinalizeReload (764ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (509ms)
+		SetupLoadedEditorAssemblies (500ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (418ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0,65 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3142 unused Assets / (1,3 MB). Loaded Objects now: 3703.
-Memory consumption went from 116,9 MB to 115,5 MB.
-Total: 7,770401 ms (FindLiveObjects: 0,424356 ms CreateObjectMapping: 0,211619 ms MarkObjects: 5,121881 ms  DeleteObjects: 2,003467 ms)
+Unloading 3143 unused Assets / (1,3 MB). Loaded Objects now: 3707.
+Memory consumption went from 118,1 MB to 116,7 MB.
+Total: 7,942210 ms (FindLiveObjects: 0,392089 ms CreateObjectMapping: 0,193461 ms MarkObjects: 5,330496 ms  DeleteObjects: 2,017225 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10582,406790 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(b14637e6bd136ceeda675c0e11a8c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(b14637e6bd136ceeda675c0e11a8c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01e8990f82f364097cedc5b77cc0eb78') in 0.00363049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000054 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74fc8f8b714d5966f523153cf0274ab2') in 0.000384546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 9,331605 seconds.
-  path: Assets/Scenes/_0Scen.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/_0Scen.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0a5ea5ad501af0867e21cb8b13d21d7') in 0.000384896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 13,495567 seconds.
-  path: Assets/Scenes/_0Scene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/_0Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5831a700a7a243a5c943ca96a5997e9d') in 0.000730051 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1662,599949 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab
-  artifactKey: Guid(4375e93352605df4cbdaa1c202fbe8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab using Guid(4375e93352605df4cbdaa1c202fbe8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '051038db3f3008a1aee6d08e60128038') in 0.000682001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2,954618 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonNightmare
-  artifactKey: Guid(8dbb47dd5a279ff48ae42d51c9373f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonNightmare using Guid(8dbb47dd5a279ff48ae42d51c9373f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29062514c9227d9da540999fcca125c0') in 0.000787461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,067217 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Albino.prefab
-  artifactKey: Guid(8252519d2c6fd014bb5f75765a8c4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Albino.prefab using Guid(8252519d2c6fd014bb5f75765a8c4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '475c8e1945b6ebccf29e653a2f3dbeb9') in 0.471765895 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 209
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000048 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Green.prefab
-  artifactKey: Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Green.prefab using Guid(281a986484325de459dc1b3709335bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74dd057c13dc1a0d3afdb8bca759f7d8') in 0.03257523 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 209
-
-========================================================================
-Received Import Request.
-  Time since last request: 10,281105 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater
-  artifactKey: Guid(8d080fb65bf4b9d4b890aefb0b412a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater using Guid(8d080fb65bf4b9d4b890aefb0b412a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57fea669482e202abc85e2ba7af55b9d') in 0.000716292 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,080134 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Blue.prefab
-  artifactKey: Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Blue.prefab using Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01dfd6279be37ca4aeb97cb1dc6fb525') in 0.295624165 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 191
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000072 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Purple.prefab
-  artifactKey: Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Purple.prefab using Guid(36c38a65d57de7d4a9a582f9ee857701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f9b07837e4540b9f39df512ac9b63b8') in 0.057527214 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 191
-
-========================================================================
-Received Import Request.
-  Time since last request: 4,120768 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer
-  artifactKey: Guid(318ed8b844006974bafd7411323cfa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer using Guid(318ed8b844006974bafd7411323cfa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '997b06cfb13f170145721e06466258dd') in 0.000656717 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,062760 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Albino.prefab
-  artifactKey: Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Albino.prefab using Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '201b3341bd1d8247dd76c246a13767d1') in 0.058080496 seconds
+  Time since last request: 25357,856908 seconds.
+  path: Assets/Scenes/Emeny.prefab
+  artifactKey: Guid(c9d61409b99f97358a5f50f9b9e35af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Emeny.prefab using Guid(c9d61409b99f97358a5f50f9b9e35af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '275ddf56ff8031a0b2318548151addbf') in 0.173054745 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 238
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0,000075 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab
-  artifactKey: Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab using Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd025e20274b294e9565f43699775378') in 0.044238234 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 238
-
-========================================================================
-Received Import Request.
-  Time since last request: 11,884431 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper
-  artifactKey: Guid(da286c563d238e04c94cb6f9aa0a8331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper using Guid(da286c563d238e04c94cb6f9aa0a8331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb27e55b78e3e917f39fd39cbf17c4bd') in 0.000788718 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,083138 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab
-  artifactKey: Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab using Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91d0091565ee3f3b78ab5672af2042c7') in 0.063093703 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 310
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000071 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red.prefab
-  artifactKey: Guid(eb58e8f2831a51f45a44a261e6710cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red.prefab using Guid(eb58e8f2831a51f45a44a261e6710cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7ca797e7f07bd62b384e701b206c889') in 0.039244303 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 310
-
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
 icall.c:1842:
 icall.c:1842:
 icall.c:1842:
@@ -406,555 +247,39 @@ icall.c:1842:
 icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,625 seconds
-Refreshing native plugins compatible for Editor in 0,26 ms, found 0 plugins.
+- Loaded All Assemblies, in  0,600 seconds
+Refreshing native plugins compatible for Editor in 0,24 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,756 seconds
-Domain Reload Profiling: 1383ms
-	BeginReloadAssembly (184ms)
+- Finished resetting the current domain, in  0,805 seconds
+Domain Reload Profiling: 1406ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (354ms)
-		LoadAssemblies (294ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (118ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (757ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (479ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (392ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0,28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (1,0 MB). Loaded Objects now: 3715.
-Memory consumption went from 118,6 MB to 117,6 MB.
-Total: 7,360224 ms (FindLiveObjects: 0,434972 ms CreateObjectMapping: 0,358356 ms MarkObjects: 5,713226 ms  DeleteObjects: 0,848292 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,616 seconds
-Refreshing native plugins compatible for Editor in 0,24 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,775 seconds
-Domain Reload Profiling: 1392ms
-	BeginReloadAssembly (192ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (271ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (119ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (776ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (496ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (408ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 0,30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (0,6 MB). Loaded Objects now: 3715.
-Memory consumption went from 120,5 MB to 119,9 MB.
-Total: 6,346477 ms (FindLiveObjects: 0,386432 ms CreateObjectMapping: 0,185638 ms MarkObjects: 4,966065 ms  DeleteObjects: 0,802686 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,621 seconds
-Refreshing native plugins compatible for Editor in 0,24 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,759 seconds
-Domain Reload Profiling: 1381ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (363ms)
-		LoadAssemblies (296ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (124ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (760ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (486ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (400ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0,29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (0,7 MB). Loaded Objects now: 3715.
-Memory consumption went from 122,4 MB to 121,8 MB.
-Total: 6,367220 ms (FindLiveObjects: 0,434762 ms CreateObjectMapping: 0,152254 ms MarkObjects: 5,030876 ms  DeleteObjects: 0,740667 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,603 seconds
-Refreshing native plugins compatible for Editor in 0,24 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,758 seconds
-Domain Reload Profiling: 1362ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
+		CreateAndSetChildDomain (52ms)
 	RebuildCommonClasses (40ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (344ms)
-		LoadAssemblies (280ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (276ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (118ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (759ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (481ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (0,9 MB). Loaded Objects now: 3715.
-Memory consumption went from 124,4 MB to 123,4 MB.
-Total: 6,992509 ms (FindLiveObjects: 0,692196 ms CreateObjectMapping: 0,219791 ms MarkObjects: 5,110705 ms  DeleteObjects: 0,961295 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,583 seconds
-Refreshing native plugins compatible for Editor in 0,24 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,761 seconds
-Domain Reload Profiling: 1345ms
-	BeginReloadAssembly (165ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (333ms)
-		LoadAssemblies (272ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (113ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (762ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (498ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (400ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0,29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (0,6 MB). Loaded Objects now: 3715.
-Memory consumption went from 126,3 MB to 125,7 MB.
-Total: 5,688293 ms (FindLiveObjects: 0,392927 ms CreateObjectMapping: 0,188990 ms MarkObjects: 4,353207 ms  DeleteObjects: 0,746044 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,622 seconds
-Refreshing native plugins compatible for Editor in 0,24 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,772 seconds
-Domain Reload Profiling: 1395ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (363ms)
-		LoadAssemblies (296ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
+		AnalyzeDomain (127ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (122ms)
+			BuildScriptInfoCaches (114ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (773ms)
+	FinalizeReload (805ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (490ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (402ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 0,29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (0,7 MB). Loaded Objects now: 3715.
-Memory consumption went from 128,2 MB to 127,5 MB.
-Total: 5,473252 ms (FindLiveObjects: 0,372952 ms CreateObjectMapping: 0,188153 ms MarkObjects: 4,150039 ms  DeleteObjects: 0,755543 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,623 seconds
-Refreshing native plugins compatible for Editor in 0,24 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,762 seconds
-Domain Reload Profiling: 1386ms
-	BeginReloadAssembly (181ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (355ms)
-		LoadAssemblies (296ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (124ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (763ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (488ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (401ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0,30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (0,6 MB). Loaded Objects now: 3715.
-Memory consumption went from 130,2 MB to 129,5 MB.
-Total: 6,995791 ms (FindLiveObjects: 0,396279 ms CreateObjectMapping: 0,277340 ms MarkObjects: 5,512222 ms  DeleteObjects: 0,802407 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,601 seconds
-Refreshing native plugins compatible for Editor in 0,24 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,773 seconds
-Domain Reload Profiling: 1375ms
-	BeginReloadAssembly (173ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (341ms)
-		LoadAssemblies (283ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (116ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (774ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (501ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (415ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0,30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (0,9 MB). Loaded Objects now: 3715.
-Memory consumption went from 132,1 MB to 131,2 MB.
-Total: 7,287658 ms (FindLiveObjects: 0,478133 ms CreateObjectMapping: 0,181378 ms MarkObjects: 5,550147 ms  DeleteObjects: 1,070877 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 500,044142 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red 1.prefab
-  artifactKey: Guid(b50c2b75fd80797e1bb82e5299082c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red 1.prefab using Guid(b50c2b75fd80797e1bb82e5299082c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0353d6f07a85408d05319bb1c0d7a084') in 0.176950353 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 310
-
-========================================================================
-Received Import Request.
-  Time since last request: 90,731098 seconds.
-  path: Assets/Scenes/Enemy.prefab
-  artifactKey: Guid(b50c2b75fd80797e1bb82e5299082c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Enemy.prefab using Guid(b50c2b75fd80797e1bb82e5299082c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f377d603deb9dacb284dcfee84962feb') in 0.044011041 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 310
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/mim/Documents/pj_unity/educational_projects/DragonPicker/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0,604 seconds
-Refreshing native plugins compatible for Editor in 0,25 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,794 seconds
-Domain Reload Profiling: 1399ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (345ms)
-		LoadAssemblies (278ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (122ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (794ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (531ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (418ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -962,464 +287,168 @@ Domain Reload Profiling: 1399ms
 Refreshing native plugins compatible for Editor in 0,29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (0,7 MB). Loaded Objects now: 3715.
-Memory consumption went from 134,0 MB to 133,4 MB.
-Total: 7,225709 ms (FindLiveObjects: 0,396140 ms CreateObjectMapping: 0,334959 ms MarkObjects: 5,586604 ms  DeleteObjects: 0,900394 ms)
+Unloading 3141 unused Assets / (0,6 MB). Loaded Objects now: 3716.
+Memory consumption went from 118,6 MB to 117,9 MB.
+Total: 6,465277 ms (FindLiveObjects: 0,425613 ms CreateObjectMapping: 0,247727 ms MarkObjects: 5,011460 ms  DeleteObjects: 0,773143 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 147,918381 seconds.
-  path: Assets/Scenes/EnemyCTRL.controller
-  artifactKey: Guid(3d9f4246397827f4997b1208a24a9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/EnemyCTRL.controller using Guid(3d9f4246397827f4997b1208a24a9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cfbcb693497bff798dacefa6b129acc') in 0.025813057 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 124,665048 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/attackFlame.fbx
+  artifactKey: Guid(f3c4af16992f14c43a050675b9be2f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/attackFlame.fbx using Guid(f3c4af16992f14c43a050675b9be2f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2b781af5c74c1968ec5c95f5424e04f') in 0.169047253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
 
 ========================================================================
 Received Import Request.
-  Time since last request: 135,635201 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations
-  artifactKey: Guid(16e415a8dc4a2c14191fdd1286652c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations using Guid(16e415a8dc4a2c14191fdd1286652c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f62ddf5e952d744a4e6885279584b82') in 0.000702953 seconds
+  Time since last request: 0,000029 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Basic Attack.fbx
+  artifactKey: Guid(5d9efb65c776b714fb5123711f07de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Basic Attack.fbx using Guid(5d9efb65c776b714fb5123711f07de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '349ca9ef03ae38df0add877874738080') in 0.014993455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,154954 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Basic Attack.fbx
+  artifactKey: Guid(f882585276163954fbc547e18dea9d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Basic Attack.fbx using Guid(f882585276163954fbc547e18dea9d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '487437fe706336e9a474f6d65e0cb6d1') in 0.017740523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,156053 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Claw Attack.fbx
+  artifactKey: Guid(a8d68f882ac2f2f48982204cc9c22f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Claw Attack.fbx using Guid(a8d68f882ac2f2f48982204cc9c22f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ff9e75a2b679aa1d1b4b9b334787620') in 0.013924605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,484399 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/defend.fbx
+  artifactKey: Guid(b97d7fae708615b4bab97d3197b11bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/defend.fbx using Guid(b97d7fae708615b4bab97d3197b11bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06bfa8dba9638eed9824e5e6eead5a3e') in 0.013316358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,203727 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Die.fbx
+  artifactKey: Guid(347d2e064d3a3f946b17655dcc998386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Die.fbx using Guid(347d2e064d3a3f946b17655dcc998386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17bc6b35f62ec0c5ef2cde3009571f48') in 0.016253882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,064472 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Die.fbx
+  artifactKey: Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Die.fbx using Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9653f96ab702b8387b98e2480232722') in 0.014256631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,363326 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Run.fbx
+  artifactKey: Guid(93048e03d4dc597468fce555d02e9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Run.fbx using Guid(93048e03d4dc597468fce555d02e9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fe8aba7158246b3d9fc421e3c1caded') in 0.01577463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,078282 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/run.fbx
+  artifactKey: Guid(e225de8969f5f7348aa6e6a2c92c7859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/run.fbx using Guid(e225de8969f5f7348aa6e6a2c92c7859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c568cbc2e3d2cfc9fcd8f7c48b9fa656') in 0.012503544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,439468 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/scream.fbx
+  artifactKey: Guid(111c5f2baba40874c84636fdf0cf746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/scream.fbx using Guid(111c5f2baba40874c84636fdf0cf746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed6a76f27cd9ced55a8c2fb57ceb67fb') in 0.013985157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,111402 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Scream.fbx
+  artifactKey: Guid(497f35860988216419561f5b7835a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Scream.fbx using Guid(497f35860988216419561f5b7835a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e95677affbdd485c3090469407bde8b7') in 0.016763932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,053598 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Sleep.fbx
+  artifactKey: Guid(5cfe5b96be26d60478f7a5749d947a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Sleep.fbx using Guid(5cfe5b96be26d60478f7a5749d947a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66ed7c8762e8f9dc727f28f3420a4d02') in 0.013979221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,492417 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Sleeping.fbx
+  artifactKey: Guid(0b0985d8d75993d4ba1c094379da358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Sleeping.fbx using Guid(0b0985d8d75993d4ba1c094379da358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5df5491f31f700f54a5dc0b104ad4228') in 0.014074833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,022941 seconds.
+  path: Assets/FourEvilDragonsPBR/Mesh/Stage.fbx
+  artifactKey: Guid(2897399b8106c274f9e41904f19945b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Mesh/Stage.fbx using Guid(2897399b8106c274f9e41904f19945b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1690bd64e2806d69380b075573652459') in 0.007796592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,187818 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Take Off.fbx
+  artifactKey: Guid(24717e004c7ffb84a901d2dfdcc426bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Take Off.fbx using Guid(24717e004c7ffb84a901d2dfdcc426bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '898f52f00e3fdc5cc4e4317219ea5fd3') in 0.013117729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,041499 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/takeOff.fbx
+  artifactKey: Guid(8d407c572ffcdd64a8093245d978392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/takeOff.fbx using Guid(8d407c572ffcdd64a8093245d978392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '804cd1f83ea5c93c64610ac51cc162ff') in 0.014593195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,114345 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walk.fbx
+  artifactKey: Guid(57b96fcfb13429847939b2e633026c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walk.fbx using Guid(57b96fcfb13429847939b2e633026c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e72382bc400c06e232cc63ce9fa74c29') in 0.017590574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,473291 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Walk.fbx
+  artifactKey: Guid(9f159f6b3339be1409c27761d89f18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Walk.fbx using Guid(9f159f6b3339be1409c27761d89f18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '881ac53ef3abc547c95b9177bbbe9b0a') in 0.01941825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,152608 seconds.
+  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkLeft.fbx
+  artifactKey: Guid(f0e26e0f2a772af4a95ec08b88a49302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkLeft.fbx using Guid(f0e26e0f2a772af4a95ec08b88a49302) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5835a6c157187b6f771b246d110daae') in 0.016405437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 130,557685 seconds.
+  path: Assets/Scenes/EnemyDragon.cs
+  artifactKey: Guid(edd86b6c025df6cc38822057034ac3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EnemyDragon.cs using Guid(edd86b6c025df6cc38822057034ac3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '309208220d36e3bc6617db0ec9b87da9') in 0.000709588 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
-Received Import Request.
-  Time since last request: 10,073635 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/AttackWingClaw.fbx
-  artifactKey: Guid(dbbf408e4d195cf41bc2f3c7589b1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/AttackWingClaw.fbx using Guid(dbbf408e4d195cf41bc2f3c7589b1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7770e0ab17fdac0db44ba837b74b66ee') in 0.400619352 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000038 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Landing.fbx
-  artifactKey: Guid(f728a9645c91629469fdc1e9a452ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Landing.fbx using Guid(f728a9645c91629469fdc1e9a452ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af516c4f2a18525da991a83b490f504d') in 0.017585056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000041 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Defend.fbx
-  artifactKey: Guid(44efacea9a9a1394c9a977bd6dd3972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Defend.fbx using Guid(44efacea9a9a1394c9a977bd6dd3972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f085dbf6fe29f774a014f442843ce07') in 0.018312104 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000020 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/sleep.fbx
-  artifactKey: Guid(d1f47f7ac86a75840bfb342ed7ca65d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/sleep.fbx using Guid(d1f47f7ac86a75840bfb342ed7ca65d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75ba8f1b10768f0c9b6128cf36440a62') in 0.016736834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000019 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/TakeOff.fbx
-  artifactKey: Guid(2881cf760574bd24280f47207b567e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/TakeOff.fbx using Guid(2881cf760574bd24280f47207b567e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdf1aff8fdd5ea327dce008e720a4fed') in 0.014921101 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000021 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Flame Attack.fbx
-  artifactKey: Guid(b39c8cd2e979bd0458d96f045c9e4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Flame Attack.fbx using Guid(b39c8cd2e979bd0458d96f045c9e4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c31c15bcf1680c21a0af57b15e388013') in 0.016202409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000019 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyForward.fbx
-  artifactKey: Guid(d1facc13bc40c14408f2106cf788a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyForward.fbx using Guid(d1facc13bc40c14408f2106cf788a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '522a74ed1c382cf7920cb0e318162f8a') in 0.014907551 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000017 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyGlide.fbx
-  artifactKey: Guid(29b94464c227dad4997918129dad480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyGlide.fbx using Guid(29b94464c227dad4997918129dad480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e841618455d6369fcc7ad224fd280af4') in 0.016183691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000017 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/die.fbx
-  artifactKey: Guid(49d0a594e1ca9d54ca3e17fb24d28f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/die.fbx using Guid(49d0a594e1ca9d54ca3e17fb24d28f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '448f71f4803485133807f2538857948f') in 0.016035348 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000178 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/idle01.fbx
-  artifactKey: Guid(2f381863b81afe445bb3bbd18f1e90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/idle01.fbx using Guid(2f381863b81afe445bb3bbd18f1e90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f17c8ae9d39d3fa047cfbebd6e3b253') in 0.013893875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000018 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyAttack.fbx
-  artifactKey: Guid(215d9268815c12d4389d713b8b1f8b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyAttack.fbx using Guid(215d9268815c12d4389d713b8b1f8b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edff4c888a4ef8c3d2facefee864802b') in 0.016345583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000021 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/walk.fbx
-  artifactKey: Guid(ac9b8cd5f91eeef44a25fce0f31885c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/walk.fbx using Guid(ac9b8cd5f91eeef44a25fce0f31885c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0457cb6b858dda431d56b8f19430615f') in 0.01510604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000021 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/scream.fbx
-  artifactKey: Guid(221d076625b05194c872aaa907b8f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/scream.fbx using Guid(221d076625b05194c872aaa907b8f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '982577467a89dc3498380f057feac3f0') in 0.019120796 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000023 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyIdle.fbx
-  artifactKey: Guid(fe8f656bdccb4074683e623a09c9728e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyIdle.fbx using Guid(fe8f656bdccb4074683e623a09c9728e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '389018bbe1b28177afdaa0a21daf9cbf') in 0.01601684 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000023 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/idle02.fbx
-  artifactKey: Guid(cbbe4ed6e6acf294e9df235ff6184874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/idle02.fbx using Guid(cbbe4ed6e6acf294e9df235ff6184874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17f07f530193366f89e1b8d06f4ef571') in 0.014185253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f932006a4e0
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f932055f800
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f932055f8c0
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f932006a570
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f9320814b30
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f9320c157f0
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f9320815c70
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f9320c17260
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f9320c8ae10
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f9320cba270
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f9320cb8c20
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f9320c88170
-Thread: ID 140271609652288, CleanupSafetyData: safetyData 7f9320c1faa0
-Assertion failed on expression: 'm_PodArrays.empty()'
-Checking for leaked weakptr:
-  Found no leaked weakptrs.
-All object instances wasn't destroyed before shutting down
-Assertion failed on expression: 'm_MemoryFSRefCount == 0'
-Memory Statistics:
-[ALLOC_TEMP_TLS] TLS Allocator
-  StackAllocators : 
-    [ALLOC_TEMP_Loading.PreloadManager]
-      Peak usage frame count: [0-1,0 KB]: 1 frames
-      Initial Block Size 32,0 MB
-      Current Block Size 32,0 MB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 11]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 10]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 9]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 8]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 7]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 6]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 5]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 4]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 3]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 2]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 1]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BakingJobs.worker 0]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_AUDIO_FMOD stream thread]
-      Initial Block Size 64,0 KB
-      Current Block Size 64,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Loading.AsyncRead]
-      Initial Block Size 64,0 KB
-      Current Block Size 64,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_BatchDeleteObjects]
-      Initial Block Size 64,0 KB
-      Current Block Size 64,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 7]
-      Initial Block Size 32,0 KB
-      Current Block Size 32,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 6]
-      Initial Block Size 32,0 KB
-      Current Block Size 32,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 5]
-      Initial Block Size 32,0 KB
-      Current Block Size 32,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 4]
-      Initial Block Size 32,0 KB
-      Current Block Size 32,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 3]
-      Initial Block Size 32,0 KB
-      Current Block Size 32,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 2]
-      Initial Block Size 32,0 KB
-      Current Block Size 32,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 1]
-      Initial Block Size 32,0 KB
-      Current Block Size 32,0 KB
-      Peak Allocated Bytes 5,2 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.worker 0]
-      Initial Block Size 32,0 KB
-      Current Block Size 32,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 4]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 3]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 2]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 55 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 1]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0,6 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.worker 0]
-      Initial Block Size 256,0 KB
-      Current Block Size 256,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [64,0 KB-128,0 KB]: 9 frames, [1,0 MB-2,0 MB]: 24 frames, [8,0 MB-16,0 MB]: 3 frames
-      Initial Block Size 16,0 MB
-      Current Block Size 16,0 MB
-      Peak Allocated Bytes 9,4 MB
-      Overflow Count 0
-    [ALLOC_TEMP_Loading.PreloadManager] x 9
-      Initial Block Size 32,0 MB
-      Current Block Size 32,0 MB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_CoreBusinessMetricsCache]
-      Initial Block Size 64,0 KB
-      Current Block Size 64,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_Profiler.Dispatcher]
-      Initial Block Size 64,0 KB
-      Current Block Size 64,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-    [ALLOC_TEMP_AssetDatabase.IOService]
-      Initial Block Size 64,0 KB
-      Current Block Size 64,0 KB
-      Peak Allocated Bytes 33,5 KB
-      Overflow Count 0
-    [ALLOC_TEMP_AssetGarbageCollectorHelper]
-      Initial Block Size 64,0 KB
-      Current Block Size 64,0 KB
-      Peak Allocated Bytes 0 B
-      Overflow Count 0
-[ALLOC_MEMORYPROFILER]
-  Peak usage frame count: [256,0 KB-0,5 MB]: 36 frames
-  Requested Block Size 1,0 MB
-  Peak Block count 1
-  Peak Allocated memory 303,2 KB
-  Peak Large allocation bytes 0 B
-[ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 2659
-    [ALLOC_BUCKET]
-      Large Block size 32,0 MB
-      Used Block count 1
-      Peak Allocated bytes 8,0 MB
-    [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [64,0 MB-128,0 MB]: 36 frames
-      Requested Block Size 16,0 MB
-      Peak Block count 6
-      Peak Allocated memory 80,5 MB
-      Peak Large allocation bytes 0 B
-    [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [4,0 MB-8,0 MB]: 17 frames, [16,0 MB-32,0 MB]: 19 frames
-      Requested Block Size 16,0 MB
-      Peak Block count 2
-      Peak Allocated memory 23,3 MB
-      Peak Large allocation bytes 0 B
-[ALLOC_TEMP_JOB_1_FRAME]
-  Initial Block Size 2,0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_2_FRAMES]
-  Initial Block Size 2,0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
-  Initial Block Size 2,0 MB
-  Used Block Count 1
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_ASYNC (Background)]
-  Initial Block Size 1,0 MB
-  Used Block Count 1
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 0
-    [ALLOC_BUCKET]
-      Large Block size 32,0 MB
-      Used Block count 1
-      Peak Allocated bytes 8,0 MB
-    [ALLOC_GFX_MAIN]
-      Peak usage frame count: [2,0 MB-4,0 MB]: 26 frames, [16,0 MB-32,0 MB]: 10 frames
-      Requested Block Size 16,0 MB
-      Peak Block count 3
-      Peak Allocated memory 29,2 MB
-      Peak Large allocation bytes 0 B
-    [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1,0 KB]: 36 frames
-      Requested Block Size 16,0 MB
-      Peak Block count 0
-      Peak Allocated memory 0 B
-      Peak Large allocation bytes 0 B
-[ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 56
-    [ALLOC_BUCKET]
-      Large Block size 32,0 MB
-      Used Block count 1
-      Peak Allocated bytes 8,0 MB
-    [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [8,0 MB-16,0 MB]: 20 frames, [16,0 MB-32,0 MB]: 13 frames, [32,0 MB-64,0 MB]: 3 frames
-      Requested Block Size 4,0 MB
-      Peak Block count 8
-      Peak Allocated memory 59,2 MB
-      Peak Large allocation bytes 31,5 MB
-    [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [0-1,0 KB]: 36 frames
-      Requested Block Size 4,0 MB
-      Peak Block count 0
-      Peak Allocated memory 0 B
-      Peak Large allocation bytes 0 B
-[ALLOC_TYPETREE] Dual Thread Allocator
-  Peak main deferred allocation count 811
-    [ALLOC_BUCKET]
-      Large Block size 32,0 MB
-      Used Block count 1
-      Peak Allocated bytes 8,0 MB
-    [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [64,0 KB-128,0 KB]: 1 frames, [256,0 KB-0,5 MB]: 18 frames, [1,0 MB-2,0 MB]: 5 frames, [2,0 MB-4,0 MB]: 12 frames
-      Requested Block Size 2,0 MB
-      Peak Block count 2
-      Peak Allocated memory 3,2 MB
-      Peak Large allocation bytes 0 B
-    [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1,0 KB]: 36 frames
-      Requested Block Size 2,0 MB
-      Peak Block count 0
-      Peak Allocated memory 0 B
-      Peak Large allocation bytes 0 B
-[ALLOC_PROFILER]
-  Peak usage frame count: [64,0 KB-128,0 KB]: 36 frames
-  Requested Block Size 16,0 MB
-  Peak Block count 1
-  Peak Allocated memory 86,4 KB
-  Peak Large allocation bytes 0 B
-    [ALLOC_PROFILER_BUCKET]
-      Large Block size 32,0 MB
-      Used Block count 1
-      Peak Allocated bytes 2,6 KB
-[ALLOC_PROFILER_EDITOR]
-  Peak usage frame count: [0-1,0 KB]: 36 frames
-  Requested Block Size 1,0 MB
-  Peak Block count 0
-  Peak Allocated memory 0 B
-  Peak Large allocation bytes 0 B
-    [ALLOC_PROFILER_BUCKET]
-      Large Block size 32,0 MB
-      Used Block count 1
-      Peak Allocated bytes 2,6 KB
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1709706640670,"processId":21098,"allocatedMemory":60201767,"memoryLabels":[{"Default":121337},{"Permanent":17680},{"Thread":1087176},{"Manager":780989},{"VertexData":296},{"Geometry":600},{"Particles":17880},{"VFX":36},{"Texture":2099583},{"Shader":194511},{"Material":27340},{"GfxDevice":233160},{"Animation":13068},{"Audio":16440},{"FMODOther":2090294},{"Font":51311},{"FontEngine":38192},{"Physics":337461},{"Physics2D":153168},{"Serialization":15804571},{"Input":59456},{"JobScheduler":12146176},{"GarbageCollector":1049088},{"Mono":72},{"MonoCode":1332737},{"ScriptingNativeRuntime":155000},{"BaseObject":1810546},{"Resource":1256},{"Renderer":8688},{"Transform":4678},{"File":14476},{"Network":3302},{"WebCam":32},{"Culling":40},{"Terrain":905},{"TerrainPhysics":8},{"Wind":24},{"STL":149504},{"String":716107},{"DynamicArray":917647},{"HashMap":2373447},{"Utility":2657824},{"PoolAlloc":1568},{"AI":59680},{"TypeTree":4493},{"ScriptManager":1409163},{"MonoScriptCache":482720},{"RuntimeInitializeOnLoadManager":64},{"AncestorCache":32},{"SpriteAtlas":112},{"GI":22720},{"Director":8208},{"CloudService":6752},{"WebRequest":808},{"VR":46257},{"SceneManager":528},{"Video":240},{"LazyScriptCache":32},{"ManagedAttributeManager":128},{"TextureStreaming":1360},{"NativeArray":2059},{"ScreenCapture":8},{"Camera":17},{"Secure":1},{"CrashReporter":1000},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":59496},{"StaticSafetyDebugInfo":278528},{"Analytics":240},{"Hierarchy":576},{"Gui":5100020},{"EditorUtility":284515},{"VersionControl":4},{"Undo":656},{"AssetDatabase":5611068},{"AssetImporter":255993},{"EditorGi":22280},{"UnityConnect":24992},{"Collab":25},{"Upm":1176},{"DrivenProperties":72},{"LocalIPC":112},{"ProfilerEditor":9786},{"CoreBusinessMetrics":2740},{"Licensing":3136},{"AssetReference":32},{"IPCStream":32}]}
